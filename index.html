@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- tailwind and daisy link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+
+    <script
+      src="https://kit.fontawesome.com/2492c64ae0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font-monst">
+    <header class="container mx-auto flex p-4 md:absolute md:z-20 md:left-20">
+      <div class="flex w-[70%] md:w-[60%] ml-0 md:ml-4">
+        <h1 class="md:mr-4 mt-1 md:mt-0">
+          <a href="#" class="text-xl font-bold">StartupHut</a>
+        </h1>
+        <div
+          class="flex md:ml-2 md:flex-row flex-col items-center md:justify-start lg:mt-0 mt-12 md:mt-0 md:w-1/2 md:space-x-4 w-full"
+        >
+          <a
+            href="#"
+            class="text-sm font-medium hover:text-blue-500 md:mb-0 mb-2"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium hover:text-blue-500 md:mb-0 mb-2"
+            >Product</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium hover:text-blue-500 md:mb-0 mb-2"
+            >Pricing</a
+          >
+          <a
+            href="#"
+            class="text-sm font-medium hover:text-blue-500 md:mb-0 mb-2"
+            >Contact</a
+          >
+        </div>
+      </div>
+
+      <div class="md:hidden w-[30%] md:w-[40%] h-8 flex justify-end">
+        <button class="text-xl h-8">☰</button>
+      </div>
+    </header>
+
+    <!-- banner starts -->
+
+    <section class="container mx-auto mb-60 relative">
+      <div
+        class="hero relative h-[680px] md:flex"
+        style="background-image: url(https://i.ibb.co/d0sRwBF/image-1.png)"
+      >
+        <div class="bg-opacity-0"></div>
+        <div class="md:ml-6">
+          <div class="text-black">
+            <h1 class="mb-5 text-4xl font-bold uppercase w-[60%]">
+              Empower <br />
+              your business
+            </h1>
+            <p class="mb-8 text-[18px] text-slate-500 w-[60%]">
+              We know how Startups scale from one Desk to a thousands of Desks
+            </p>
+            <div class="space-x-4">
+              <button
+                class="btn w-[150px] h-[40px] text-white bg-[#FFA62B] rounded-3xl text-[16px]"
+              >
+                Get Started
+              </button>
+              <button
+                class="btn w-[150px] h-[40px] btn-outline border-blue-500 text-[#00A0C1] rounded-3xl text-[16px]"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col lg:flex-row items-center justify-center gap-4 px-4 w-full absolute transform -translate-y-28"
+      >
+        <div class="flex flex-col py-8 pl-8 bg-white shadow-xl border w-[30%]">
+          <span class="mb-2"
+            ><i class="fa-solid fa-briefcase fa-2xl" style="color: #00a0c1"></i
+          ></span>
+          <h2 class="text-2xl mb-2">Digital Marketing</h2>
+          <p class="text-slate-500 w-[70%]">
+            We focus on ergonomics and meeting you where you work.
+          </p>
+        </div>
+        <div class="flex flex-col py-8 pl-8 bg-white border shadow-xl w-[30%]">
+          <span class="mb-2"
+            ><i class="fa-solid fa-store fa-2xl" style="color: #00a0c1"></i
+          ></span>
+          <h2 class="text-2xl mb-2">National Top 50 Firms</h2>
+          <p class="text-slate-500 w-[70%]">
+            Just type what's on your mind and we'll get you there.
+          </p>
+        </div>
+        <div
+          class="flex flex-col py-8 pl-8 bg-blue-500 border text-white shadow-xl w-[30%]"
+        >
+          <span class="mb-2"
+            ><i class="fa-solid fa-table-list fa-2xl" style="color: white"></i
+          ></span>
+          <h2 class="text-2xl mb-2">Digital Marketing</h2>
+          <p class="w-[70%]">the quick fox jumps over the lazy dog</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner ends -->
+
+    <!-- why choose us section -->
+
+    <section class="container mx-auto bg-[#FAFAFA] py-12">
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-4xl font-bold my-4">WHY CHOOSE US</h2>
+        <p class="text-[18px] text-[#737373] w-[40%] text-center">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+      <div class="mt-16 pb-10 flex items-center justify-center gap-10">
+        <div
+          class="space-y-4 px-10 py-8 flex flex-col items-center justify-center bg-white"
+        >
+          <span class="text-2xl"
+            ><i
+              class="fa-solid fa-people-group fa-2xl"
+              style="color: #00a0c1"
+            ></i
+          ></span>
+          <h2 class="text-3xl font-bold">3K</h2>
+          <p class="uppercase text-[18px] text-[#737373]">cases done</p>
+        </div>
+
+        <div
+          class="space-y-4 px-10 py-8 flex flex-col items-center justify-center bg-white"
+        >
+          <span class="text-2xl"
+            ><i
+              class="fa-solid fa-arrow-trend-up fa-2xl"
+              style="color: #00a0c1"
+            ></i
+          ></span>
+          <h2 class="text-3xl font-bold">3K</h2>
+          <p class="uppercase text-[18px] text-[#737373]">cases done</p>
+        </div>
+        <div
+          class="space-y-4 px-10 py-8 flex flex-col items-center justify-center bg-white"
+        >
+          <span class="text-2xl"
+            ><i class="fa-solid fa-award fa-2xl" style="color: #00a0c1"></i
+          ></span>
+          <h2 class="text-3xl font-bold">45</h2>
+          <p class="uppercase text-[18px] text-[#737373]">Happy customers</p>
+        </div>
+        <div
+          class="space-y-4 px-10 py-8 flex flex-col items-center justify-center bg-white"
+        >
+          <span class="text-2xl"
+            ><i class="fa-solid fa-briefcase fa-2xl" style="color: #00a0c1"></i
+          ></span>
+          <h2 class="text-3xl font-bold">1.5K</h2>
+          <p class="uppercase text-[18px] text-[#737373]">cases done</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- practice advice section -->
+
+    <section class="container mx-auto py-12 bg-[#FAFAFA]">
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-4xl font-bold my-4">Practice Advice</h2>
+        <p class="text-[18px] text-[#737373] w-[40%] text-center mb-4">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+
+      <div class="flex gap-4 mt-4">
+        <div class="flex flex-col items-center justify-center bg-white">
+          <div class="p-8 flex flex-col items-center justify-center mb-8">
+            <h2 class="mb-4 w-[70%] text-[20px] font-bold">
+              A single source <br />
+              of truth
+            </h2>
+            <p class="text-[18px] w-[70%] font-medium text-[#737373]">
+              Newton thought that light was made up of particles, but then it
+              was discovered
+            </p>
+          </div>
+          <div class="">
+            <img
+              class="w-[300px] h-[150px] object-cover"
+              src="https://i.ibb.co/0X98LmQ/media.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-white">
+          <div class="p-8 flex flex-col items-center justify-center">
+            <h2 class="mb-4 w-[70%] text-[20px] font-bold">
+              Fastest way to <br />
+              organize
+            </h2>
+            <p class="text-[18px] w-[70%] font-medium text-[#737373]">
+              “Quantum mechanics” is the description of the behaviour of matter
+            </p>
+          </div>
+          <div>
+            <img
+              class="w-[300px] h-[150px] object-cover"
+              src="https://i.ibb.co/ww4Ts1F/media-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-white">
+          <div class="p-8 flex flex-col items-center justify-center">
+            <h2 class="mb-4 w-[70%] text-[20px] font-bold">
+              Fastest way to <br />
+              take action
+            </h2>
+            <p class="text-[18px] w-[70%] font-medium text-[#737373]">
+              They describe a universe consisting of bodies moving
+            </p>
+          </div>
+          <div>
+            <img
+              class="w-[300px] h-[150px] object-cover"
+              src="https://i.ibb.co/WWJV0PX/media-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-white">
+          <div>
+            <img
+              class="w-[300px] h-[150px] object-cover"
+              src="https://i.ibb.co/pKRrcf7/media-3.png"
+              alt=""
+            />
+          </div>
+          <div class="p-8 flex flex-col items-center justify-center">
+            <h2 class="mb-4 w-[70%] text-[20px] font-bold">
+              Work better <br />
+              together
+            </h2>
+            <p class="text-[18px] w-[70%] font-medium text-[#737373]">
+              They finally obtained a consistent description of the behaviour
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-12 container mx-auto">
+      <div>
+        <div class="flex flex-col items-center justify-center mb-10">
+          <h2 class="text-4xl text-center font-bold w-[35%] my-4">
+            We are providing best business service.
+          </h2>
+          <p class="text-[18px] text-[#737373] w-[40%] text-center mb-4">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+        </div>
+        <!-- whole div -->
+        <div class="flex flex-col lg:flex-row gap-4">
+          <!-- video div -->
+          <div class=" w-full lg:w-1/2">
+            <video
+              class="h-[400px]"
+              src="styles/istockphoto-1752533608-640_adpp_is.mp4"
+              controls
+              type="video/mp4"
+              autoplay
+              muted
+            >
+              Your browser does not support the video tag
+            </video>
+          </div>
+
+          <div class="w-1/2">
+            <div class="flex flex-col mb-8">
+              <h2 class="text-4xl font-bold w-[40%] mb-4">
+                Most trusted in our field
+              </h2>
+              <p class="text-[18px] text-[#737373] w-[70%]">
+                Most calendars are designed for teams. Slate is designed for
+                freelancers who want a simple way to plan their schedule.
+              </p>
+            </div>
+
+            <div class="flex my-4 gap-6 items-start">
+              <span class="text-xl"
+                ><i
+                  class="fa-solid fa-people-group fa-2xl"
+                  style="color: #ffa62b"
+                ></i
+              ></span>
+              <div class="flex flex-col space-y-4">
+                <h2 class="text-[20px] font-bold w-[80%]">
+                  the quick fox jumps over the lazy dog
+                </h2>
+                <p class="text-[18px]">Things on a very small scale ...</p>
+              </div>
+            </div>
+            <div class="flex my-4 gap-6 items-start">
+              <span class="text-xl"
+                ><i
+                  class="fa-solid fa-spinner fa-2xl"
+                  style="color: #ffa62b"
+                ></i
+              ></span>
+              <div class="flex flex-col space-y-4">
+                <h2 class="text-[20px] font-bold w-[80%]">
+                  the quick fox jumps over the lazy dog
+                </h2>
+                <p class="text-[18px]">Things on a very small scale ...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sponsor section -->
+
+    <section
+      class="mt-6 py-12 container mx-auto border-b-[77px] border-[#252B42] bg-[#FAFAFA]"
+    >
+      <div class="flex flex-col lg:flex-row justify-around items-center px-4 pt-6 pb-10 mb-8">
+        <img src="styles/col-md-3 (1).svg" alt="" />
+        <img src="styles/col-md-3 (2).svg" alt="" />
+        <img src="styles/col-md-3 (3).svg" alt="" />
+        <img src="styles/col-md-3 (4).svg" alt="" />
+        <img src="styles/fa-brands_lyft.svg" alt="" />
+        <img src="styles/col-md-3.svg" alt="" />
+      </div>
+
+      <div></div>
+    </section>
+
+    <section class="py-12 mb-12 container mx-auto bg-[#FAFAFA]">
+      <div class="flex flex-col items-center justify-center mb-10">
+        <h2 class="text-4xl text-center font-bold w-[35%] my-4">
+          Get In Touch
+        </h2>
+        <p class="text-[18px] text-[#737373] w-[40%] text-center mb-8">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+
+      <!-- whole div -->
+      <div class="flex items-center justify-center">
+        <div class="p-8 flex flex-col items-center justify-center bg-white">
+          <span class="text-2xl mb-4"
+            ><i class="fa-solid fa-phone fa-2xl" style="color: #00a0c1"></i>
+          </span>
+          <p class="text-[18px] font-semibold mt-4">
+            georgia.young@example.com
+          </p>
+          <p class="text-[18px] font-semibold mb-4">georgia.young@ple.com</p>
+          <h2 class="text-[20px] font-bold mb-4">Get Support</h2>
+
+          <button
+            class="btn btn-lg btn-outline border-[#FFA62B] text-[#FFA62B]"
+          >
+            Submit Request
+          </button>
+        </div>
+        <div
+          class="p-8 flex flex-col items-center justify-center text-white bg-[#252B42]"
+        >
+          <span class="text-2xl mt-8 mb-4"
+            ><i
+              class="fa-solid fa-location-dot fa-2xl"
+              style="color: white"
+            ></i>
+          </span>
+          <p class="text-[18px] font-semibold mt-4">
+            georgia.young@example.com
+          </p>
+          <p class="text-[18px] font-semibold mb-4">georgia.young@ple.com</p>
+          <h2 class="text-[20px] font-bold mb-8">Get Support</h2>
+
+          <button class="btn btn-lg btn-outline border-white text-white">
+            Submit Request
+          </button>
+        </div>
+        <div class="p-8 flex flex-col items-center justify-center bg-white">
+          <span class="text-2xl mb-4"
+            ><i
+              class="fa-regular fa-paper-plane fa-2xl"
+              style="color: #00a0c1"
+            ></i
+          ></span>
+          <p class="text-[18px] font-semibold mt-4">
+            georgia.young@example.com
+          </p>
+          <p class="text-[18px] font-semibold mb-4">georgia.young@ple.com</p>
+          <h2 class="text-[20px] font-bold mb-4">Get Support</h2>
+
+          <button
+            class="btn btn-lg btn-outline border-[#FFA62B] text-[#FFA62B]"
+          >
+            Submit Request
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer
+      class="footer p-10 px-36 bg-[#16697A] text-base-content text-white flex flex-wrap justify-between"
+    >
+      <nav class="mb-4 md:mb-0">
+        <h6 class="footer-title font-bold mb-2">Company Info</h6>
+        <a class="link link-hover block mb-1">About Us</a>
+        <a class="link link-hover block mb-1">Carrier</a>
+        <a class="link link-hover block mb-1">We are hiring</a>
+        <a class="link link-hover block mb-1">Blog</a>
+      </nav>
+      <nav class="mb-4 md:mb-0">
+        <h6 class="footer-title font-bold mb-2">Legal</h6>
+        <a class="link link-hover block mb-1">About Us</a>
+        <a class="link link-hover block mb-1">Carrier</a>
+        <a class="link link-hover block mb-1">We are hiring</a>
+        <a class="link link-hover block mb-1">Blog</a>
+      </nav>
+      <nav class="mb-4 md:mb-0">
+        <h6 class="footer-title font-bold mb-2">Features</h6>
+        <a class="link link-hover block mb-1">Business Marketing</a>
+        <a class="link link-hover block mb-1">User Analytic</a>
+        <a class="link link-hover block mb-1">Live Chat</a>
+        <a class="link link-hover block mb-1">Unlimited Support</a>
+      </nav>
+      <nav class="mb-4 md:mb-0">
+        <h6 class="footer-title font-bold mb-2">Resources</h6>
+        <a class="link link-hover block mb-1">IOS & Android</a>
+        <a class="link link-hover block mb-1">Watch a Demo</a>
+        <a class="link link-hover block mb-1">Customers</a>
+        <a class="link link-hover block mb-1">API</a>
+      </nav>
+      <nav class="mb-4 md:mb-0">
+        <h6 class="footer-title font-bold mb-2">Get In Touch</h6>
+        <a class="link link-hover block mb-1 flex items-center">
+          <span class="text-[#8EC2F2]"><i class="fa fa-phone mr-2"></i></span>
+          (480) 555-0103
+        </a>
+        <a class="link link-hover block mb-1 flex items-center">
+          <span class="text-[#8EC2F2]"
+            ><i class="fa fa-map-marker mr-2"></i
+          ></span>
+          4578 Washington Ave.
+        </a>
+        <a class="link link-hover block mb-1 flex items-center">
+          <span class="text-[#8EC2F2]"
+            ><i class="fa fa-envelope mr-2"></i
+          ></span>
+          debra.holt@example.com
+        </a>
+      </nav>
+    </footer>
+
+    <footer
+      class="footer items-center p-4 bg-white text-neutral-content text-black px-36"
+    >
+      <aside class="items-center grid-flow-col">
+        <p>Made With Love By Figmaland All Right Reserved</p>
+      </aside>
+      <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <a class="text-[#335BF5] text-xl">
+          <i class="fa-brands fa-facebook fa-2xl"></i>
+        </a>
+        <a class="text-[#E61F5A] text-xl"
+          ><i class="fa-brands fa-instagram fa-2xl"></i
+        ></a>
+        <a class="text-[#21A6DF] text-xl"
+          ><i class="fa-brands fa-twitter fa-2xl"></i
+        ></a>
+      </nav>
+    </footer>
+  </body>
+</html>
